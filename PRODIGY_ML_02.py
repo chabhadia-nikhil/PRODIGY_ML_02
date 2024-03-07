@@ -10,7 +10,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 #Retrieving Data
-data = "D:\\internships\\prodigy\\Mall_Customers.csv"
+data = "D:\\internships\\prodigy\\Mall_Customers.csv" # Note please mention you file path and syntax may vary according the software used.
 data = pd.read_csv(data)
 
 #If spend score is the percentage of their spending then actucal value that is spent is Spend Score*annual income/100
